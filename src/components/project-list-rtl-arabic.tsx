@@ -1,3 +1,4 @@
+/* eslint-disable @typescript-eslint/no-unused-vars */
 "use client"
 
 import { useState } from "react"
@@ -71,7 +72,7 @@ export function ProjectListRtlArabic() {
   }
 
   return (
-    <div dir="rtl" className=" bg-zinc-900 text-zinc-100 p-8 font-arabic pt-50">
+    <div dir="rtl" className=" bg-zinc-900 text-zinc-100 p-8 font-arabic pt-50 mt-5">
       <div className="max-w-6xl mx-auto">
         <h1 className="text-3xl font-bold mb-8  text-center">مشاريعي</h1>
         <div className="grid gap-6 md:grid-cols-2 lg:grid-cols-3">

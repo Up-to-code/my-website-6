@@ -79,3 +79,102 @@ body {
 .rtl {
   direction: rtl;
 }
+
+/* Custom scrollbar styles for the body */
+
+/* The scrollbar itself */
+::-webkit-scrollbar {
+  width: 10px; /* Width of the vertical scrollbar */
+  height: 10px; /* Height of the horizontal scrollbar */
+}
+
+/* The track (background) of the scrollbar */
+::-webkit-scrollbar-track {
+  background: #2c2c2c; /* Background color of the scrollbar track */
+  border-radius: 10px; /* Rounded corners for the track */
+}
+
+/* The draggable part of the scrollbar (the thumb) */
+::-webkit-scrollbar-thumb {
+  background: #007bff; /* Color of the scrollbar thumb */
+  border-radius: 10px; /* Rounded corners for the thumb */
+}
+
+/* Change thumb color on hover */
+body::-webkit-scrollbar-thumb:hover {
+  background: #0056b3; /* Darker shade on hover */
+}
+
+/* Change thumb color on active (dragging) */
+body::-webkit-scrollbar-thumb:active {
+  background: #003f7f; /* Even darker shade when active */
+}
+
+/* For Firefox */
+body {
+  scrollbar-width: thin; /* Options: auto, thin */
+  scrollbar-color: #007bff #2c2c2c; /* thumb color, track color */
+}
+html {
+  @apply dark;
+}
+.cl-internal-1hp5nqm,
+.cl-internal-1dauvpw {
+  @apply hidden;
+}
+.cl-internal-muj3sv,
+.cl-internal-arq78v,
+.cl-internal-1lldyk3,
+.cl-internal-c2xpfh ,
+.cl-internal-13u79ez{
+  @apply bg-zinc-900 text-white;
+}
+.cl-internal-13u79ez{
+  background:    #181818;
+}
+.cl-internal-13lvar6{
+  background:    none;
+}
+
+.cl-internal-1lldyk3:hover,
+.cl-internal-1e217up,
+.cl-internal-13lvar6,
+.cl-internal-13lvar6 {
+  @apply bg-zinc-800 text-white;
+}
+
+.cl-internal-xexz24,
+.cl-internal-1v2koqu {
+  @apply text-primary;
+}
+.cl-internal-1v2koqu {
+  @apply text-primary font-semibold;
+}
+.cl-internal-kyvqj0,
+.cl-internal-1y71s3o,
+.cl-internal-3gh7hq,
+.cl-internal-1u67iw4,
+.cl-internal-bolkfx,
+.cl-internal-1xpngvq,
+.cl-internal-1b58dc3,
+.cl-internal-q7chm5,
+.cl-internal-1j5cao4,
+.cl-internal-pp7u0o,
+.cl-internal-168uxhv {
+  @apply text-white;
+}
+.cl-internal-1v2koqu:hover {
+  @apply text-secondary;
+}
+
+.cl-internal-1ftpdtb,
+.cl-internal-1u67iw4:hover {
+  @apply bg-primary  text-white;
+}
+
+.cl-internal-109vell[data-variant="outline"] {
+  @apply border-primary bg-gradient-to-br from-zinc-700 to-transparent text-white;
+}
+.cl-internal-4x6jej {
+  @apply bg-gradient-to-br from-transparent to-transparent text-white;
+}
